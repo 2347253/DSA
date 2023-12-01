@@ -5,7 +5,6 @@
 struct Player {
     char playerName[50];
     int playerID;
-    // Add other player information as needed
     struct Player* next;
 };
 
